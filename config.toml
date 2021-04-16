@@ -1,7 +1,6 @@
 baseURL = "https://entropygra.ph"
 languageCode = "en-us"
 theme = "pulp"
-canonifyurls = true
 disableKinds = ["tag", "section", "taxonomy", "taxonomyTerm", "RSS", "404", "sitemap"]
 
 
