@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div id="profileContainer">
+      <img src="/images/vertical-logo.svg" class="header-logo" alt="logo">
+      <p class="description">{{ .Site.Params.description | safeHTML }}</p>
+      <ul id="nav">
+        {{- range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}</a></li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
