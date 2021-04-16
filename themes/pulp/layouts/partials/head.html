@@ -7,6 +7,6 @@
   {{- $baseStyle := resources.Get "css/style.css" }}
   {{- $fontAwesomeStyle := resources.Get "css/fa.css" }}
   {{- $css := slice $baseStyle $fontAwesomeStyle | resources.Concat "style.css" | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{- partial "twitter_cards.html" . -}}
 </head>
