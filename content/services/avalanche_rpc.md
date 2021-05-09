@@ -8,7 +8,7 @@ EntropyGraph provides a privacy-conscious RPC gateway into the [Avalanche Networ
 |  | &nbsp;&nbsp;&nbsp;&nbsp; | |
 | :-------| - | :----------- |
 | Mainnet | | https://api.avax.entropygra.ph |
-| Mainnet Tor | | http://entropy6nigj7iqniaqfrta7eccudqq7bg63jff274ppjcqpuaxef6yd.onion |
+| Mainnet Tor | | http://entropy6nigj7iqniaqfrta7eccudqq7bg63jff274ppjcqpuaxef6yd.onion:80 |
 | Testnet | | https://api-fuji.avax.entropygra.ph |
 | Testnet Tor | | http://entropy6nigj7iqniaqfrta7eccudqq7bg63jff274ppjcqpuaxef6yd.onion:8080 |
 
