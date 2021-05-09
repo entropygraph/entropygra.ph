@@ -3,7 +3,7 @@ title = "Avalanche Network | RPC Server"
 weight = 20
 +++
 
-EntropyGraph provides a privacy-conscious RPC gateway into the [Avalanche Network](https://avax.network) free for public use. Onion services are available to protect your privacy while using the Avalanche network, and highly available instances with SLAs are available for organizations.
+EntropyGraph provides a privacy-conscious RPC gateway into [Avalanche](https://avax.network), 100% for public use. Onion services are available to protect your privacy while using the Avalanche network, and highly available instances with SLAs are available for organizations.
 
 |  | &nbsp;&nbsp;&nbsp;&nbsp; | |
 | :-------| - | :----------- |
