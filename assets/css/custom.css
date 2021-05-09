@@ -54,6 +54,10 @@ code {
 }
 
 @media screen and (max-width: 960px), print {
+  .content {
+    margin-top: 440px;
+  }
+
   .sidebar .logo-title {
     padding-top: 30px;
   }
