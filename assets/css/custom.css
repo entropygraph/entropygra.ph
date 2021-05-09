@@ -1,0 +1,81 @@
+html[data-theme='dark'] {
+  --bg-color: #101010;
+}
+
+body{
+  color:#fff;
+}
+
+code {
+  background-color:#000;
+  color:#fff !important;
+}
+
+.content {
+  margin-top: 0px;
+}
+
+.sidebar .logo-title .title{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.sidebar .logo-title .title img {
+  max-height: 269px;
+  max-width: 576px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.post .post-content h3 {
+  font-size: 28px;
+}
+
+.post .post-content p {
+  font-size: 16px;
+}
+.post .post-content a {
+  color: #2994F2;
+}
+
+.description p {
+  font-size: 24px;
+}
+
+.footer {
+  display: none;
+}
+
+@media (min-width: 1921px){
+  .sidebar {
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 960px), print {
+  .sidebar .logo-title {
+    padding-top: 30px;
+  }
+}
+
+.description:hover {
+  cursor: default;
+}
+a:hover .fa-twitter, .description .highlight-1 {
+  color: #16F2A1;
+ }
+
+
+a:hover .fa-telegram-plane, .description .highlight-2 {
+  color: #23D9D9;
+}
+
+
+a:hover .fa-envelope, .description .highlight-3 {
+  color: #2994F2;
+}
+
+a:hover .fa-github, .description .highlight-4 {
+  color: #635EF2;
+}

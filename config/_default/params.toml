@@ -1,22 +1,24 @@
-
 author = "EntropyGraph"
 copyright = ""
+keywords = ""
 description = "Privacy ∙ Integrity ∙ Availability ∙ Consensus"
 profilePicture = "images/vertical-logo-inverse.svg"
-keywords = ""
-favicon = "favicons/favicon.ico"
+favicon = "favicons/"
 customCss =  ["css/custom.css"]
 customJs = []
-mainSections = ["post"]
+mainSections = ["services"]
 images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
+doNotLoadAnimations = true
 
 singleDateFormat = "2/1/2006"
 indexDateFormat = "2/1/2006"
 listDateFormat = "2/1/2006"
 
+displayMode = "dark"
+disableThemeSwitcher = true
+
 # Read More links for truncated summaries
-# readMore = true
+readMore = false
 # postSectionName = "blog"
 
 [simpleAnalytics]
@@ -24,7 +26,7 @@ enable = false
 
 ## Math settings
 [math]
-enable = true
+enable = false
 use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
@@ -32,19 +34,19 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[socialIcons]]
 icon = "fab fa-twitter"
 title = "Twitter"
-url = "https://de.linkedin.com/"
-
-[[socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://twitter.com/entropygraph"
 
 [[socialIcons]]
 icon = "fab fa-telegram-plane"
 title = "Telegram"
-url = "https://www.instagram.com/"
+url = "https://t.me/EntropyGraph"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
 title = "Email"
-url = "mailto:mail@example.com"
+url = "mailto:tyler@entropyaccumulating.com"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/entropygraph"

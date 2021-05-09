@@ -5,7 +5,8 @@ title = "Modern Digital Infrastructure"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
-enableRobotsTXT = false
+enableRobotsTXT = true
+IsMultiLingual = false
 
 copyright = ""
 
@@ -19,3 +20,6 @@ copyright = ""
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+
+[markup.goldmark.renderer]
+unsafe= true
