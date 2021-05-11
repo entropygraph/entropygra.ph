@@ -42,7 +42,7 @@ code {
 }
 
 .footer {
-  display: none;
+  padding-bottom: 3px;
 }
 
 @media (min-width: 1921px){

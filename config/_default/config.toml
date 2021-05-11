@@ -1,14 +1,18 @@
-baseURL = "https://example.com"
-languageCode = "en"
-DefaultContentLanguage = "en"
+baseURL = "https://entropygra.ph"
 title = "Modern Digital Infrastructure"
 theme = "anatole"
-summarylength = 10
+
+#IsMultiLingual = false
+#languageCode = "en"
+#DefaultContentLanguage = "en"
+
+#summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
-IsMultiLingual = false
 
-copyright = ""
+copyright = "EntropyGraph"
+
+disableKinds = ["section"]
 
 # Enable Disqus
 #disqusShortname = ""

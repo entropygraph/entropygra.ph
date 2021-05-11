@@ -1,10 +1,7 @@
 <div class="sidebar{{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
     <div class="logo-title">
         <div class="title">
-            <img src="{{ .Site.Params.profilePicture | relURL }}" alt="profile picture">
-            {{- if isset .Site.Params "title" }}
-            <h3 title=""><a href="/">{{ .Site.Params.Title }}</a></h3>
-            {{- end}}
+            <a href="/"><img src="{{ .Site.Params.profilePicture | relURL }}" alt="entropygraph logo"></a>
             <div class="description">
                 <p><span class="highlight-1">Privacy</span> ∙ <span class="highlight-2">Integrity</span> ∙ <span class="highlight-3">Availability</span> ∙ <span class="highlight-4">Consensus</span></p>
             </div>
@@ -19,4 +16,7 @@
             </li>
         {{ end }}
     </ul>
+    <div class="footer">
+        <div class="by_farbox">Site built with <a href="https://gohugo.io">Hugo</a> & <a href="https://themes.gohugo.io/anatole">Anatole</a> | <a href="/legal/privacy">Privacy</a> | <a href="/legal/copyright">Copyright</a></div>
+    </div>
 </div>
